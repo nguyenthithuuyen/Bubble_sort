@@ -12,9 +12,10 @@ function bubbleSort($list)
     }
     return $list;
 }
-$arr=[2,3,2,5,6,1,-2,3,14,12];
+
+$arr = [2, 3, 2, 5, 6, 1, -2, 3, 14, 12];
 echo "Mảng khi chưa sắp xếp:\n";
-echo implode(' , ',$arr );
+echo implode(' , ', $arr);
 echo "<br>";
 echo "Mảng khi đã sắp xếp:\n";
-echo implode(' , ',bubbleSort($arr) );
+echo implode(' , ', bubbleSort($arr));
